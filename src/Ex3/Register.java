@@ -13,10 +13,10 @@ public class Register {
         if(pointer<10){
             documents[pointer] = document;
             pointer++;
+            System.out.println("Документ добавлен в массив");
             document.getInfo();
-            System.out.println("added");
         }else {
-            System.out.println("ne vlazit");
+            System.out.println("Документ не может быть добавлен");
         }
 
     }
