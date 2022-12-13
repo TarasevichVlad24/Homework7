@@ -1,8 +1,8 @@
 package Ex1;
 
 public abstract class Figure {
-    double square;
-    double perimeter;
+     protected double square;
+    protected double perimeter;
 
     public abstract void calcPerimeter();
 
